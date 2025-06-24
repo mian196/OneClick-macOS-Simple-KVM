@@ -15,7 +15,7 @@ MOREARGS=()
 
 args=(
     -enable-kvm \
-    -m 4G \
+    -m 8G \
     -machine q35,accel=kvm \
     -smp cores=2,threads=2,sockets=1 \
     # A single CPU with two cores, with each core having two threads (4 threads total)
